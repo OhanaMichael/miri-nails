@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.mirinails.co.il/sitemap.xml
+Sitemap: https://www.miri-nails.co.il/sitemap.xml
