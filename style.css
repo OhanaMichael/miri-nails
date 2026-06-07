@@ -98,6 +98,13 @@ section.alt{background:#fff}
 .faq-item.open .faq-a{padding:1rem 1.3rem;max-height:500px}
 .faq-arrow{transition:transform .3s}
 .faq-item.open .faq-arrow{transform:rotate(180deg)}
+/* REVIEWS */
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.3rem;margin-bottom:1.8rem;text-align:right}
+.review-card{background:#fff;border:2px solid #f0e6e6;border-radius:14px;padding:1.4rem 1.5rem}
+.review-stars{color:#f0a500;font-size:1.05rem;letter-spacing:2px;margin-bottom:.45rem}
+.review-card p{color:#4a4a4a;font-size:.98rem;line-height:1.7;margin-bottom:.7rem}
+.review-card .rname{color:var(--rose-dark);font-weight:700;font-size:.92rem}
+.review-card .rsrc{color:var(--muted);font-size:.82rem}
 /* BAND */
 .band{background:linear-gradient(135deg,#c98b93,#a8606a);color:#fff;text-align:center}
 .band h2{font-size:1.9rem;margin-bottom:.6rem}
