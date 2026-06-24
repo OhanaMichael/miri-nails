@@ -109,6 +109,31 @@ window.addEventListener('load',function(){var s=document.createElement('script')
     <div class="cinfo"><div class="ic">🚗</div><strong>אזור שירות</strong><p>טבריה, סובב כינרת והגליל התחתון</p></div>
   </div>
 </div></section>
+<section><div class="wrap">
+  <div class="sec-head"><h2>או השאירי פרטים ואחזור אלייך</h2><p>מלאי את הטופס ואחזור אלייך בהקדם לתיאום תור. לתגובה מהירה — עדיף וואטסאפ.</p></div>
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you" class="contact-form">
+    <input type="hidden" name="form-name" value="contact">
+    <p class="hidden-bot"><label>אל תמלאי שדה זה: <input name="bot-field"></label></p>
+    <div class="field"><label for="cf-name">שם מלא *</label><input id="cf-name" type="text" name="name" autocomplete="name" required></div>
+    <div class="field"><label for="cf-phone">טלפון *</label><input id="cf-phone" type="tel" name="phone" autocomplete="tel" required></div>
+    <div class="field"><label for="cf-email">אימייל</label><input id="cf-email" type="email" name="email" autocomplete="email"></div>
+    <div class="field"><label for="cf-service">השירות המבוקש</label>
+      <select id="cf-service" name="service">
+        <option value="">— בחרי שירות —</option>
+        <option>לק ג'ל ומבנה אנטומי</option>
+        <option>בניית ציפורניים</option>
+        <option>מילוי ציפורניים</option>
+        <option>מניקור</option>
+        <option>ניל ארט ועיצובים</option>
+        <option>ציפורניים לכלה / אירוע</option>
+        <option>אחר</option>
+      </select>
+    </div>
+    <div class="field"><label for="cf-msg">הודעה</label><textarea id="cf-msg" name="message" rows="4" placeholder="מתי נוח לך? איזה עיצוב בא לך?"></textarea></div>
+    <button type="submit" class="btn rose">שליחת הפנייה</button>
+    <p class="form-note">* שדות חובה. נחזור אלייך בהקדם. לתיאום מהיר — וואטסאפ 050-568-6422.</p>
+  </form>
+</div></section>
 <section class="band">
   <div class="wrap center">
     <h2>מוכנה לציפורניים מושלמות?</h2>
